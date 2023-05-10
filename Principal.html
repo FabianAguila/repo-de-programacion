@@ -4,9 +4,9 @@
 	<title>Formulario de Postulación</title>
 </head>
 <body>
-<h1>Porfavor rellene el siguiente Formulario para la postulación para el trabajo de apoyo ambiental para Chiloé.</h1>
-
-<form>
+	<h1>Porfavor rellene el siguiente Formulario para la postulación para el trabajo de apoyo ambiental para Chiloé.</h1>
+	<form>
+	<h2>♥♥♥♥♥♥</h2>
 	<label for="nombre">Nombre:</label>
 	<input type="text" id="nombre" name="nombre" minlength="3" maxlength="20" required><br><br>
 
@@ -52,12 +52,28 @@
 <br></body>
 <input id="btnMostrar" type="button" value="Mostrar Formulario">
 <script src="funciones.js"></script>
+<script src="JavaScript.js"></script>
 <textarea id="carta"></textarea>
 <script>
-    $("formaulario").ready(function name() {
-        $("#btnValida").click(validar)
-        $("#carta").hide()
-    })
+    $(document).ready(function (){
+		$("#btnValida").click(validar)
+		$("#btnMostrar").click(Mostrar)
+		$("#carta").hide()
+		$("#btnMostrar").hide()
+		$("#msgRut").hide()
+		$("msgAppaterno").hide()
+		
+	$("#msgApmaterno").hide()
+		
+		$("#rut").blur(blurRut)
+		
+		$("#apmaterno").focus(focusApmaterno)
+
+		$("#appaterno").change(changeAppaterno)
+
+		$("#nombre").select(selectNombre)
+	})
+    
 </script>
 </body>
 </html>

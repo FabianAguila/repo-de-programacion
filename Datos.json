@@ -1,0 +1,18 @@
+{
+    "informacion_personal":{
+        "nombre": "Juanito Perez",
+        "rut": "XXXXXXXX-X",
+        "profesion": "Ingeniero en Informatica",
+        "direccion": "Osorno",
+        "edad": 25,
+        "fecha_nacimiento": "YYYY-MM-DD"
+
+    },
+    "Informacion_salud":{
+        "afiliacion": "Isapre",
+        "tipo_de_sangre": "No se",
+        "alergia": true,
+        "operado": false,
+        "enfermedades": ["cefalea"]
+    }
+}
